@@ -48,9 +48,9 @@ def main():
     else:
         print(f'After reduction, our fraction looks like this: {up_numerator}/{up_denominator}')
 
-    goaway = input("Щоб вийти з програми клацніть \"Enter\""
-                   "\nЩоб почати програму знову введіть \"так\" та клацніть \"Enter\" : ")
-    if goaway == "так":
+    goaway = input("Click to exit the program \"Enter\""
+                   "\nTo start the program, enter again \"yes\" and click \"Enter\" : ")
+    if goaway == "yes":
         main()
 
 
