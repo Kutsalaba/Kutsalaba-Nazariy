@@ -27,7 +27,7 @@ def main():
 
         :param numer: int, this is the numerator of the fraction
         :param denom: int, this is the denominator of the fraction
-        :return: number, denom
+        :return: two numbers
         """
 
         while numer != 0 and denom != 0:
